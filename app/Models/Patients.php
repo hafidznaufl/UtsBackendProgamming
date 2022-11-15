@@ -8,6 +8,6 @@ use Illuminate\Database\Eloquent\Model;
 class Patients extends Model
 {
     use HasFactory;
-
-    protected $fillable = ['nama', 'phone', 'address', 'status', 'in_date_at', 'out_date_at'];
+    //inisiasi model fillable untuk kolom mana saja yang bisa diisi
+    protected $fillable = ['name', 'phone', 'address', 'status', 'in_date_at', 'out_date_at'];
 }
